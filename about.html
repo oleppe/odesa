@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vandors/animate.min.css" />
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Odessa</title>
+</head>
+
+<body id="app">
+    <div class="fixed-form-mob d-lg-none d-block bg-white py-1">
+        <div class="input-group">
+            <input type="text" class="form-control rounded-0 border-brown me-1 fixed-form" placeholder="Name... ">
+            <input type="text" class="form-control rounded-0 border-brown fixed-form" placeholder="Email... ">
+            <button class="btn bg-brown text-white rounded-pill fixed-form pt-0 fw-400" type="button " style="margin-left: -20px; ">SEND</button>
+        </div>
+    </div>
+    <!-- Header section Start -->
+    <section id="navbar_top" class="main-navbar bg-whitesmoke">
+        <div class="container py-2">
+
+            <div class="row d-flex justify-content-between">
+
+                <div class="col-12 mb-3 d-block d-lg-none">
+
+                    <div class="row d-flex align-items-center text-uppercase fs-18 font-lato">
+
+                        <div class="col-6">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-auto">
+                                    <img src="assets/images/phone-blue.svg" alt="photo">
+                                </div>
+                                <div class="col-auto me-0">
+                                    <div class="text-blue fw-300">Give us a call</div>
+                                    <div class="text-blue fw-700">+38 (066) 681 24-49</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-auto me-0">
+                                    <img src="assets/images/email-blue.svg" alt="photo">
+                                </div>
+                                <div class="col-auto">
+                                    <div class="text-blue fw-300">Send Us A Message</div>
+                                    <div class="text-blue fw-700">SNPU.COM@GMAIL.COM</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-5 pt-2 header-logo border-blue-y d-none d-lg-block">
+                    <a href="index.html">
+                        <img class="ms-custom-4" src="assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-lg-5 border-blue-y d-block d-lg-none py-1">
+                    <a href="index.html">
+                        <img src="assets/images/logo_mob.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="row">
+
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-6 header-icons ms-lg-1 mt-1 mt-lg-0">
+                            <span class="border-blue rounded-pill px-1 mt-1 d-lg-block d-none w-90 py-custom-2">
+                                <!-- <img class="me-2 my-1 ps-1" src="assets/images/search.svg" alt="img" height="25"> -->
+                                <div class="search-container me-1">
+                                    <form action="/search" method="get">
+                                        <input class="search expandright rounded-pill" id="searchright" type="search" name="q"
+                                            placeholder="Search">
+                                        <label class="button searchbutton" for="searchright"><img
+                                                class="me-2 my-1 ps-1" src="assets/images/search.svg" alt="img"
+                                                height="25"></label>
+                                    </form>
+                                </div>
+
+                                <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                    <img class="me-3" src="assets/images/phone.svg" alt="img" height="25">
+                                </a>
+                                <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                    <img class="me-2" src="assets/images/gmail.svg" alt="img" height="25">
+                                </a>
+                                <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                    <img class="me-2" src="assets/images/instagram.svg" alt="img" height="25">
+                                </a>
+                                <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                    <img class="me-2" src="assets/images/facebook.svg" alt="img" height="25">
+                                </a>
+                                <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                    <img class="me-0" src="assets/images/flag.svg" alt="img" height="25">
+                                </a>
+
+                            </span>
+                            <div class="d-lg-none d-block border-blue rounded-pill px-2 py-0 d-flex align-items-center d-inline d-flex justify-content-around">
+                                <a href="javascript:void(0)">
+                                    <img class="me-2" src="assets/images/search.svg" alt="img" height="20">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img class="me-2" src="assets/images/phone.svg" alt="img" height="20">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img class="me-2" src="assets/images/gmail.svg" alt="img" height="20">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img class="me-2" src="assets/images/instagram.svg" alt="img" height="20">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img class="me-2" src="assets/images/facebook.svg" alt="img" height="20">
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <img class="me-2" src="assets/images/flag.svg" alt="img" height="20">
+                                </a>
+                                <button class="navbar-toggler text-blue d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    MENU <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 mt-3 d-none d-lg-block">
+
+                            <div class="d-flex align-items-center justify-content-start text-uppercase fs-18 font-lato ">
+
+                                <div class="phone-call d-flex align-items-center justify-content-center me-5 pe-5">
+                                    <div class="me-2">
+                                        <img src="assets/images/phone-blue.svg" width="24" alt="photo">
+                                    </div>
+                                    <div>
+                                        <div class="text-blue fw-lato fs-18 fw-300">Give us a call</div>
+                                        <div class="text-blue font-lato fs-18 fw-bold">+38 (066) 681 24-49</div>
+                                    </div>
+                                </div>
+
+                                <div class="email-icon d-flex align-items-center justify-content-center">
+                                    <div class="me-2">
+                                        <img src="assets/images/email-blue.svg" width="42" alt="photo">
+                                    </div>
+                                    <div>
+                                        <div class="text-blue fw-lato fs-18 fw-300">Send Us A Message</div>
+                                        <div class="text-blue font-lato fs-18 fw-bold">SNPU.COM@GMAIL.COM</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <nav class=" navbar navbar-expand-lg navbar-light nav-border font-roboto fw-700 fs-20 py-0 mt-lg-1">
+
+            <div class="container">
+
+                <div class=" collapse navbar-collapse py-4 py-lg-0 mb-lg-0 ms-lg-5" id="navbarNav">
+
+                    <ul class="navbar-nav text-uppercase text-center ms-lg-5 ps-lg-3">
+                        <li class="nav-item me-0 ms-custom-22">
+                            <a class="nav-link text-brown fw-800" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-0 ms-custom-19">
+                            <a class="nav-link text-brown fw-800" href="#">Students</a>
+                        </li>
+                        <li class="nav-item me-0 ms-custom-21">
+                            <a class="nav-link text-brown fw-800" href="#">Search</a>
+                        </li>
+                        <li class="nav-item me-0 ms-custom-5">
+                            <a class="nav-link text-brown fw-800" href="#">Faq</a>
+                        </li>
+                        <li class="nav-item me-0 ms-custom-5">
+                            <a class="nav-link text-brown fw-800" href="#">Faculties</a>
+                        </li>
+                        <li class="nav-item me-0  ms-custom-5">
+                            <a class="nav-link text-brown fw-800" href="#">Admission</a>
+                        </li>
+                        <li class="nav-item me-0  ms-custom-5">
+                            <a class="nav-link text-brown fw-800" href="#">Visa</a>
+                        </li>
+                        <li class="nav-item me-0  ms-custom-5">
+                            <a class="nav-link text-brown fw-800" href="#">About Us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav text-uppercase ms-custom-10 text-center">
+                        <li class="nav-item ">
+                            <a class="nav-link bg-brown text-white btn rounded-pill px-3 py-0 font-lato fs-18 fw-700" href="#">Apply Online</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <!-- Header section End -->
+
+    <!-- Cover section Start -->
+    <section class="container-fluid p-0 p-lg-3">
+        <div class="py-5 shadow-sm" style="background-image: url('assets/images/cover-about.png');background-repeat: no-repeat;background-position: center;background-size: cover;">
+            <div class="font-lato fs-52 fw-900 fi text-uppercase text-center py-3 text-blue" style="background-color: rgba(255, 255, 255, 0.7)">
+                ABOUT THE UNIVERSITY
+            </div>
+        </div>
+    </section>
+    <!-- Cover section End -->
+
+    <!-- About section Start -->
+    <section class="container py-2">
+        <div class="row d-flex flex-column-reverse flex-lg-row">
+
+            <div class="col-lg-8">
+                <div class="font-lato fs-32 fw-800 text-blue">BEGINNING</div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <p>
+                            South Ukrainian National Pedagogical University named after K.D. Ushynsky was established as Pedagogical Institute at Richelieu Lyceum in Odessa on 2 May, 1817. Since that time, its name has been changed several times (Teacher’s Institute, Institute of
+                            Public Education, Odessa State Pedagogical Institute, South Ukrainian State Pedagogical University named after K. D. Ushynsky, South Ukrainian National Pedagogical University named after K.D. Ushynsky); it has been liquidated
+                            and reestablished.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets/images/about-1.png" alt="image" width="100%" />
+                    </div>
+                    <div class="col-6">
+                        <p>
+                            Before 1941, the University was one of the biggest in Odessa in terms of the amount of students and the leading one in the USSR in terms of quality of teachers training. During the World War II, it was the only pedagogical educational institution that
+                            was relocated to Turkmen SSR where it remained till May 1945. It was relocated to Turkmen SSR where it remained till May 1945.
+                        </p>
+                        <p class="d-none d-lg-block">
+                            On February 12, 1945, Odessa State Pedagogical Institute was named after distinguished scientist-educator Kostiantyn Dmytrovych Ushynsky for his outstanding achievements in teaching.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <p class="d-block d-lg-none">
+                            On February 12, 1945, Odessa State Pedagogical Institute was named after distinguished scientist-educator Kostiantyn Dmytrovych Ushynsky for his outstanding achievements in teaching.
+                        </p>
+                        <p>
+                            The Faculty of Physics and Mathematics was considered to be the heart of the Pedagogical Institute, and the years of 1940-1950 were the most prominent in its scientific life.
+                        </p>
+                    </div>
+                </div>
+                <div class="font-lato fs-32 fw-800 text-blue mt-2">AFTER INDEPENDNCE OF UKRAINE</div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <p>
+                            South Ukrainian National Pedagogical University named after K.D. Ushynsky was established as Pedagogical Institute at Richelieu Lyceum in Odessa on 2 May, 1817. Since that time, its name has been changed several times (Teacher’s Institute, Institute of
+                            Public Education, Odessa State Pedagogical Institute, South Ukrainian State Pedagogical University named after K. D. Ushynsky, South Ukrainian National Pedagogical University named after K.D. Ushynsky); it has been liquidated
+                            and reestablished.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets/images/about-2.png" alt="image" width="100%" />
+                    </div>
+                    <div class="col-6">
+                        <p>
+                            Before 1941, the University was one of the biggest in Odessa in terms of the amount of students and the leading one in the USSR in terms of quality of teachers training. During the World War II, it was the only pedagogical educational institution that
+                            was relocated to Turkmen SSR where it remained till May 1945. It was relocated to Turkmen SSR where it remained till May 1945.
+                        </p>
+                        <p class="d-none d-lg-block">
+                            On February 12, 1945, Odessa State Pedagogical Institute was named after distinguished scientist-educator Kostiantyn Dmytrovych Ushynsky for his outstanding achievements in teaching.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <p class="d-block d-lg-none">
+                            On February 12, 1945, Odessa State Pedagogical Institute was named after distinguished scientist-educator Kostiantyn Dmytrovych Ushynsky for his outstanding achievements in teaching.
+                        </p>
+                        <p>
+                            The Faculty of Physics and Mathematics was considered to be the heart of the Pedagogical Institute, and the years of 1940-1950 were the most prominent in its scientific life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="font-lato fs-32 fw-800 text-blue">NAVIGATION</div>
+
+                <div class="mt-4 text-uppercase">
+                    <a href="javascript:void(0)" class="btn bg-blue text-white fs-18 rounded-0 shadow-sm px-3 mb-3 me-3">About University</a
+            >
+            <a
+              href="javascript:void(0)"
+              class="btn bg-white text-blue fs-18 rounded-0 shadow-sm px-3 mb-3 me-0 me-lg-3"
+              >About Us</a
+            >
+            <a
+              href="javascript:void(0)"
+              class="btn bg-white text-blue fs-18 rounded-0 shadow-sm px-3 mb-3 me-0 me-lg-3"
+              >Admission 2021-2022</a
+            >
+            <a
+              href="javascript:void(0)"
+              class="btn bg-white text-blue fs-18 rounded-0 shadow-sm px-3 mb-3 me-0 me-lg-3"
+              >Tuition Fee</a
+            >
+            <a
+              href="javascript:void(0)"
+              class="btn bg-white text-blue fs-18 rounded-0 shadow-sm px-3 mb-3 mb-lg-0 me-0 me-lg-3"
+              >Partners</a
+            >
+            <a
+              href="javascript:void(0)"
+              class="btn bg-white text-blue fs-18 rounded-0 shadow-sm px-3 mb-3 mb-lg-0 me-0 me-lg-3"
+              >Our Achievements</a
+            >
+          </div>
+
+          <hr class="my-4 d-none d-lg-block" />
+
+          <div class="fixed-sidebar-form card rounded-0 border-0 shadow-sm text-center px-3 py-4 d-none d-lg-block">
+            <div class="card-body">
+              <div class="border border-blue py-3">
+                <h3 class="" style="margin-top: -35px">
+                  <span class="bg-white text-blue font-lato fs-24 fw-800 text-uppercase px-3">Complete the form</span>
+                </h3>
+                <div class="px-4 mb-3 mt-3">
+                  <input
+                    type="text"
+                    class="form-control rounded-0 border-blue"
+                    placeholder="Name..."
+                  />
+                </div>
+                <div class="px-4 mb-3">
+                  <input
+                    type="text"
+                    class="form-control rounded-0 border-blue"
+                    placeholder="Phone..."
+                  />
+                </div>
+                <div class="px-4">
+                  <input
+                    type="text"
+                    class="form-control rounded-0 border-blue"
+                    placeholder="Email..."
+                  />
+                </div>
+                <a
+                  href=""
+                  class="btn bg-brown text-white rounded-pill py-1 px-3"
+                  style="margin-bottom: -50px"
+                  >SEND APPLICATION</a
+                >
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      </section>
+      <!-- About section End -->
+
+      <!-- Footer section Start -->
+      <footer class="bg-blue text-white mt-5">
+        <div class="container news-section">
+          <div class="row py-5">
+
+            <div class="col-lg-7">
+
+              <div class="row text-uppercase font-lato fs-18">
+
+                <div class="col-12 mb-5">
+                  <img src="assets/images/logo-white.png" alt="logo" style="max-width: 100%;" />
+                </div>
+
+                <div class="col-12 d-block d-lg-none">
+                  <hr class="border border-light mb-5">
+                </div>
+
+                <div class="col-6">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-auto pe-0">
+                            <img src="assets/images/phone-white.svg" alt="photo">
+                        </div>
+                        <div class="col-auto">
+                            <div class="fw-300">Give us a call</div>
+                            <div class="fw-700">+38 (066) 681 24-49</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-auto pe-0">
+                            <img src="assets/images/email-white.svg" alt="photo">
+                        </div>
+                        <div class="col-auto">
+                            <div class="fw-300">Send Us A Message</div>
+                            <div class="fw-700">SNPU.COM@GMAIL.COM</div>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-12 d-block d-lg-none">
+              <hr class="border border-light my-5">
+            </div>
+  
+            <div class="col-lg-5">
+              <div class="row">
+                <div class="col-12">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control rounded-0 border-brown" placeholder="Text...">
+                    <button class="btn bg-brown text-white rounded-pill" type="button" style="margin-left: -20px;">SEARCH</button>
+                  </div>
+                </div>
+                <div class="col-4 mt-5">
+                  <div class="font-lato fs-18 fw-700 text-decoration-underline">Products</div>
+                  <div class="font-lato fs-14 fw-600">Send</div>
+                  <div class="font-lato fs-14 fw-600">Recieve</div>
+                  <div class="font-lato fs-14 fw-600">Buy</div>
+                  <div class="font-lato fs-14 fw-600">Recieve</div>
+                  <div class="font-lato fs-14 fw-600">Recieve</div>
+                </div>
+                <div class="col-4 mt-5">
+                  <div class="font-lato fs-18 fw-700 text-decoration-underline">Products</div>
+                  <div class="font-lato fs-14 fw-600">Send</div>
+                  <div class="font-lato fs-14 fw-600">Recieve</div>
+                  <div class="font-lato fs-14 fw-600">Buy</div>
+                  <div class="font-lato fs-14 fw-600">Buy</div>
+                </div>
+                <div class="col-4 mt-5">
+                  <div class="font-lato fs-18 fw-700 text-decoration-underline">Products</div>
+                  <div class="font-lato fs-14 fw-600">Send</div>
+                  <div class="font-lato fs-14 fw-600">Recieve</div>
+                  <div class="font-lato fs-14 fw-600">Buy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid bg-deep-blue">
+          <div class="row text-center">
+            <div class="my-2">Copyright © 2020. All rights reserved.</div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer section End -->
+
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="assets/js/vandors/jquery-3.0.min.js "></script>
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js " integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 " crossorigin="anonymous "></script>
+      <script type="text/javascript " src="assets/js/about.js "></script>
+    </body>
+</html>

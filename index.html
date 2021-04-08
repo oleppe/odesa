@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- //صورة السلايدر جعلهل عريضة
+لون الستيبر جعله ازرق -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Slider -->
+    <link rel="stylesheet" href="assets/css/vandors/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/vandors/slick.css" />
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vandors/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Odessa</title>
+</head>
+
+<body>
+    <div class="fixed-form-mob d-lg-none d-block bg-white py-1">
+        <div class="input-group">
+            <input type="text" class="form-control rounded-0 border-brown me-1 fixed-form" placeholder="Name... ">
+            <input type="text" class="form-control rounded-0 border-brown fixed-form" placeholder="Email... ">
+            <button class="btn bg-brown text-white rounded-pill fixed-form pt-0 fw-400" type="button " style="margin-left: -20px; ">SEND</button>
+        </div>
+    </div>
+    <div class="position position-relative">
+
+        <!-- Header section Start -->
+        <section id="navbar_top" class="main-navbar bg-whitesmoke">
+            <div class="container py-2">
+
+                <div class="row d-flex justify-content-between">
+
+                    <div class="col-12 mb-3 d-block d-lg-none">
+
+                        <div class="row d-flex align-items-center text-uppercase fs-18 font-lato">
+
+                            <div class="col-6">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-auto">
+                                        <img src="assets/images/phone-blue.svg" alt="photo">
+                                    </div>
+                                    <div class="col-auto me-0">
+                                        <div class="text-blue fw-300">Give us a call</div>
+                                        <div class="text-blue fw-700">+38 (066) 681 24-49</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-auto me-0">
+                                        <img src="assets/images/email-blue.svg" alt="photo">
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="text-blue fw-300">Send Us A Message</div>
+                                        <div class="text-blue fw-700">SNPU.COM@GMAIL.COM</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-lg-5 pt-2 header-logo border-blue-y d-none d-lg-block">
+                        <a href="index.html">
+                            <img class="ms-custom-4" src="assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 border-blue-y d-block d-lg-none py-1">
+                        <a href="index.html">
+                            <img class="ms-4" src="assets/images/logo_mob.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="row">
+
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-6 header-icons ms-lg-1 mt-1 mt-lg-0">
+                                <span class="border-blue rounded-pill px-1 mt-1 d-lg-block d-none w-90 py-custom-2">
+                                    <!-- <img class="me-2 my-1 ps-1" src="assets/images/search.svg" alt="img" height="25"> -->
+                                    <div class="search-container me-1">
+                                        <form action="/search" method="get">
+                                            <input class="search expandright rounded-pill" id="searchright" type="search" name="q"
+                                                placeholder="Search">
+                                            <label class="button searchbutton" for="searchright"><img
+                                                    class="me-2 my-1 ps-1" src="assets/images/search.svg" alt="img"
+                                                    height="25"></label>
+                                        </form>
+                                    </div>
+
+                                    <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                        <img class="me-3" src="assets/images/phone.svg" alt="img" height="25">
+                                    </a>
+                                    <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                        <img class="me-2" src="assets/images/gmail.svg" alt="img" height="25">
+                                    </a>
+                                    <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                        <img class="me-2" src="assets/images/instagram.svg" alt="img" height="25">
+                                    </a>
+                                    <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                        <img class="me-2" src="assets/images/facebook.svg" alt="img" height="25">
+                                    </a>
+                                    <a href="javascript:void(0)" class="my-1 text-decoration-none">
+                                        <img class="me-0" src="assets/images/flag.svg" alt="img" height="25">
+                                    </a>
+
+                                </span>
+                                <div class="d-lg-none d-block border-blue rounded-pill px-2 py-0 d-flex align-items-center d-inline d-flex justify-content-around">
+                                    <a href="javascript:void(0)">
+                                        <img class="me-2" src="assets/images/search.svg" alt="img" height="20">
+                                    </a>
+                                    <a href="javascript:void(0)">
+                                        <img class="me-2" src="assets/images/phone.svg" alt="img" height="20">
+                                    </a>
+                                    <a href="javascript:void(0)">
+                                        <img class="me-2" src="assets/images/gmail.svg" alt="img" height="20">
+                                    </a>
+                                    <a href="javascript:void(0)">
+                                        <img class="me-2" src="assets/images/instagram.svg" alt="img" height="20">
+                                    </a>
+                                    <a href="javascript:void(0)">
+                                        <img class="me-2" src="assets/images/facebook.svg" alt="img" height="20">
+                                    </a>
+                                    <a href="javascript:void(0)">
+                                        <img class="me-2" src="assets/images/flag.svg" alt="img" height="20">
+                                    </a>
+                                    <button class="navbar-toggler text-blue d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                        MENU <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 mt-3 d-none d-lg-block">
+
+                                <div class="d-flex align-items-center justify-content-start text-uppercase fs-18 font-lato ">
+
+                                    <div class="phone-call d-flex align-items-center justify-content-center me-5 pe-5">
+                                        <div class="me-2">
+                                            <img src="assets/images/phone-blue.svg" width="24" alt="photo">
+                                        </div>
+                                        <div>
+                                            <div class="text-blue fw-lato fs-18 fw-300">Give us a call</div>
+                                            <div class="text-blue font-lato fs-18 fw-bold">+38 (066) 681 24-49</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="email-icon d-flex align-items-center justify-content-center">
+                                        <div class="me-2">
+                                            <img src="assets/images/email-blue.svg" width="42" alt="photo">
+                                        </div>
+                                        <div>
+                                            <div class="text-blue fw-lato fs-18 fw-300">Send Us A Message</div>
+                                            <div class="text-blue font-lato fs-18 fw-bold">SNPU.COM@GMAIL.COM</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <nav class=" navbar navbar-expand-lg navbar-light nav-border font-roboto fw-700 fs-20 py-0 mt-lg-1">
+
+                <div class="container">
+
+                    <div class=" collapse navbar-collapse py-4 py-lg-0 mb-lg-0 ms-lg-5" id="navbarNav">
+
+                        <ul class="navbar-nav text-uppercase text-center ms-lg-5 ps-lg-3">
+                            <li class="nav-item me-0 ms-custom-22">
+                                <a class="nav-link text-brown fw-800" href="#">Home</a>
+                            </li>
+                            <li class="nav-item me-0 ms-custom-19">
+                                <a class="nav-link text-brown fw-800" href="#">Students</a>
+                            </li>
+                            <li class="nav-item me-0 ms-custom-21">
+                                <a class="nav-link text-brown fw-800" href="#">Search</a>
+                            </li>
+                            <li class="nav-item me-0 ms-custom-5">
+                                <a class="nav-link text-brown fw-800" href="#">Faq</a>
+                            </li>
+                            <li class="nav-item me-0 ms-custom-5">
+                                <a class="nav-link text-brown fw-800" href="#">Faculties</a>
+                            </li>
+                            <li class="nav-item me-0  ms-custom-5">
+                                <a class="nav-link text-brown fw-800" href="#">Admission</a>
+                            </li>
+                            <li class="nav-item me-0  ms-custom-5">
+                                <a class="nav-link text-brown fw-800" href="#">Visa</a>
+                            </li>
+                            <li class="nav-item me-0  ms-custom-5">
+                                <a class="nav-link text-brown fw-800" href="#">About Us</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav text-uppercase ms-custom-10 text-center">
+                            <li class="nav-item ">
+                                <a class="nav-link bg-brown text-white btn rounded-pill px-3 py-0 font-lato fs-18 fw-700" href="#">Apply Online</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </section>
+        <!-- Header section End -->
+        <!-- Cover section Start -->
+        <section class="d-none d-lg-block">
+            <div class="container py-4 pt-2">
+                <div class="row">
+
+                    <div class="col-lg-7 ps-custom p-1 pb-0">
+                        <div class="header-50-course shadow-sm px-5 py-3 d-flex align-items-end">
+                            <div>
+                                <div class="fs-52 fi fw-900 font-lato text-white mb-3">50+ Courses</div>
+                                <a href="#50-courses" class="btn bg-blue text-white rounded-pill py-1 px-3 mb-3">LEARN
+                                    MORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="container-fluid p-0">
+                            <div class="row h-100">
+                                <div class="container-fluid ">
+                                    <div class="row h-100">
+                                        <div class="col-lg-12 p-2 pt-1">
+                                            <div class="header-admission px-5 py-3 d-flex align-items-end">
+                                                <div>
+                                                    <div class="fs-50 fi fw-900 font-lato text-white mb-3">Admission <br> Process
+                                                    </div>
+                                                    <a href="#admission-process" class="btn bg-blue text-white rounded-pill py-1 px-3 mb-3">LEARN
+                                                MORE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div class="row h-100">
+                                        <div class="header-form col-lg-12 text-center text-uppercase text-white px-2">
+
+                                            <div class="  py-custom-20 bg-blue px-5">
+                                                <div class="border-white-custom  pb-2 pt-4">
+                                                    <div class="font-lato fs-29 fw-800" style="margin-top: -48px;"><span class="bg-blue px-3">Complete the form</span></div>
+                                                    <div class="px-5 mb-3 mt-2">
+                                                        <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Name...">
+                                                    </div>
+                                                    <div class="px-5 mb-3">
+                                                        <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Phone...">
+                                                    </div>
+                                                    <div class="px-5">
+                                                        <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Email...">
+                                                    </div>
+                                                    <a href="" class="btn form-button bg-brown text-white fw-700 py-1 fs-18 h-26 rounded-pill px-3 w-60" style="margin-bottom: -35px;">SEND APPLICATION</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Cover section End -->
+        <!-- 2nd slide section Start -->
+        <div class="container-fluid header-second-background d-none">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 header-second-card px-0">
+
+                    <div class="text-center pt-3 py-2">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </div>
+
+                    <div class=" text-uppercase second-menu py-custom-10 px-4 border-b-y d-flex justify-content-around font-roboto fs-20 fw-bold">
+                        <a href="javascript:void(0)" class="text-decoration-none text-brown fw-800">Home</a>
+                        <a href="javascript:void(0)" class="text-decoration-none text-brown fw-800">Students</a>
+                        <a href="javascript:void(0)" class="text-decoration-none text-brown fw-800">Search</a>
+                        <a href="javascript:void(0)" class="text-decoration-none text-brown fw-800 pe-2">Faq</a>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-around text-uppercase fs-18 font-lato mt-3">
+
+                        <div class="d-flex align-items-center justify-content-center ms-3">
+                            <div class="me-2">
+                                <img src="assets/images/phone-blue.svg" alt="photo">
+                            </div>
+                            <div>
+                                <div class="text-blue fw-lato fs-13 fw-300">Give us a call</div>
+                                <div class="text-blue font-lato fs-13 fw-bold">+38 (066) 681 24-49</div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-center me-3">
+                            <div class="me-2">
+                                <img src="assets/images/email-blue.svg" alt="photo">
+                            </div>
+                            <div>
+                                <div class="text-blue fw-lato fs-13 fw-300">Send Us A Message</div>
+                                <div class="text-blue font-lato fs-13 fw-bold">SNPU.COM@GMAIL.COM</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="font-lato fi px-4">
+                        <div class="text-blue fs-72 fw-900 text-uppercase my-4 ms-4 about-us">About</br>
+                            </bt>us</div>
+                        <div class="text-muted pt-1 px-2 fs-18 fw-700" style="text-align: justify;">
+                            This Black History Month, meet the students whose fearlessness has transformed Carolina for the better and the young Tar Heels who have continued to work toward a more inclusive and stronger future.
+                        </div>
+                        <div class="mt-5 learn-bottom ms-3 pt-3">
+                            <a href="javascript:void(0)" class="text-decoration-underline text-brown fs-20 fw-800 text-uppercase">Learn more</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue text-white text-uppercase py-2 px-4 d-flex justify-content-between align-items-center">
+                        <a href="javascript:void(0)" class="text-decoration-underline text-white fi fs-16 fw-bold">Faculties</a>
+                        <a href="javascript:void(0)" class="text-decoration-underline text-white fi fs-16 fw-bold">Admission</a>
+                        <a href="javascript:void(0)" class="text-decoration-underline text-white fi fs-16 fw-bold">Visa</a>
+                        <a class="nav-link bg-brown text-white btn rounded-pill px-3 pe-4 py-1 font-lato fw-bold fs-16" href="#">Apply Online</a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-lg-4 d-flex flex-column justify-content-between icons-bar">
+
+                    <div class="d-flex justify-content-end second-icons">
+
+                        <span class="bg-blue-transparent rounded-pill px-2 py-1 mt-3 d-lg-block d-none w-90">
+                            <!-- <img class="me-2 my-1 ps-1" src="assets/images/search.svg" alt="img" height="25"> -->
+                            <div class="search-container me-1">
+                                <form action="/search" method="get">
+                                    <input class="search expandright rounded-pill" id="searchright" type="search" name="q"
+                                        placeholder="Search">
+                                    <label class="button searchbutton" for="searchright"><img
+                                            class="me-2 my-1 ps-1" src="assets/images/search-white.svg" alt="img"
+                                            height="25"></label>
+                                </form>
+                            </div>
+
+                            <a href="javascript:void(0)" class=" text-decoration-none">
+                                <img class="me-3 mb-1" src="assets/images/phone.svg" alt="img" height="25">
+                            </a>
+                            <a href="javascript:void(0)" class=" text-decoration-none">
+                                <img class="me-2 mb-1" src="assets/images/gmail.svg" alt="img" height="25">
+                            </a>
+                            <a href="javascript:void(0)" class=" text-decoration-none">
+                                <img class="me-2 mb-1" src="assets/images/instagram.svg" alt="img" height="25">
+                            </a>
+                            <a href="javascript:void(0)" class=" text-decoration-none">
+                                <img class="me-2 mb-1" src="assets/images/facebook.svg" alt="img" height="25">
+                            </a>
+                            <a href="javascript:void(0)" class=" text-decoration-none">
+                                <img class="me-2 mb-1" src="assets/images/flag-white.svg" alt="img" height="25">
+                            </a>
+
+                        </span>
+                    </div>
+
+                    <div class="header-form second-form col-lg-12 text-center text-uppercase text-white px-2">
+                        <div class="  py-custom-20 bg-blue px-5">
+                            <div class="border-white-custom  pb-2 pt-4">
+                                <div class="font-lato fs-29 fw-800" style="margin-top: -48px;"><span class="bg-blue px-3">Complete the form</span></div>
+                                <div class="px-5 mb-3 mt-2">
+                                    <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Name...">
+                                </div>
+                                <div class="px-5 mb-3">
+                                    <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Phone...">
+                                </div>
+                                <div class="px-5">
+                                    <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Email...">
+                                </div>
+                                <a href="" class="btn form-button bg-brown text-white fw-700 py-1 fs-18 h-26 rounded-pill px-3 w-60" style="margin-bottom: -35px;">SEND APPLICATION</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-1 "></div>
+            </div>
+
+        </div>
+        <!-- 2nd slide section Start -->
+
+    </div>
+    <!-- MOBILE SLIDER-->
+    <div class="slider-main pb-0 d-lg-none d-block ">
+        <div>
+            <div class="img">
+                <img src="assets/images/cover-students.png " alt=" " />
+                <div class="mobile-layer">
+                    <div class=" fi fw-900 font-lato text-white mb-0">50+ Courses</div>
+                    <a href="#50-courses" class="btn bg-blue text-white rounded-pill py-1 px-3 mb-3 fw-700">LEARN
+                    MORE</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="img fold-bg">
+                <img src="assets/images/fold.png" alt=" " />
+                <div class="mobile-second-layer">
+                    <div class="font-lato fi px-2">
+                        <div class="text-blue fs-60 fw-900 text-uppercase my-2 about-us">About</br>
+                            </bt>us</div>
+                        <div class="text-muted pt-1 px-2 fs-14 fw-700" style="text-align: justify;">
+                            This Black History Month, meet the students whose fearlessness has transformed Carolina for the better and the young Tar Heels who have continued to work toward a more inclusive and stronger future.
+                        </div>
+                        <div class="mt-0 learn-bottom ms-1 pt-2">
+                            <a href="about.html" class="text-decoration-underline text-brown fs-20 fw-800 text-uppercase">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="img ">
+                <img src="assets/images/cover-students.png " alt=" " />
+                <div class="mobile-layer">
+                    <div class=" fi fw-900 font-lato text-white mb-0">Admission Process</div>
+                    <a href="#admission-process" class="btn bg-blue text-white rounded-pill py-1 px-3 mb-3 fw-700">LEARN
+                    MORE</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Controls section Start -->
+    <div class="container d-none d-lg-block slider-controls">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-auto pe-4">
+                <a href="javascript:void(0) " onclick="prev() "><i
+                        class="fas fa-angle-double-left text-blue fa-2x "></i></a>
+            </div>
+            <div class="col-4 ps-5  pe-5" onclick="prev() ">
+                <hr id="first" class="active">
+            </div>
+            <div class="col-4  pe-5 ps-5" onclick="next()">
+                <hr id="second" class="inactive">
+            </div>
+            <div class="col-auto ps-4">
+                <a href="javascript:void(0) " onclick="next() "><i
+                        class="fas fa-angle-double-right text-blue fa-2x "></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container main-slider-dots d-block d-lg-none ">
+        <div class="row d-flex align-items-center justify-content-center ">
+            <div class="col-1 ">
+                <a href="javascript:void(0) "><i
+                        class="fas fa-angle-double-left text-blue fa-2x carousel-prev "></i></a>
+            </div>
+            <div class="col-10 slick-slider-dots mx-0 px-0 ">
+
+            </div>
+
+
+            <div class="col-1 ">
+                <a href="javascript:void(0) "><i
+                        class="fas fa-angle-double-right text-blue fa-2x carousel-next "></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Controls section End -->
+
+
+    <!-- News section Start -->
+    <section class="mt-3 ">
+        <div class="container news-section">
+
+            <div class="row ">
+
+                <div class="col-12 d-flex justify-content-between">
+                    <div class="font-lato fs-52 fw-700 text-blue text-uppercase ">News</div>
+                    <span class="d-block d-lg-none mt-3">
+                        <a href="javascript:void(0) "
+                            class="text-decoration-underline text-blue font-lato fs-18 fw-bolder ">All news</a>
+                    </span>
+                </div>
+
+                <div class="col-12 d-flex justify-content-lg-between mb-4 mt-2 tabs-section ">
+
+                    <ul class="nav nav-pills mb-3 " id="pills-tab " role="tablist ">
+                        <li class="nav-item" role="presentation">
+                            <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">University</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Education</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Study</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Admission
+                                2020-2021</button>
+                        </li>
+                    </ul>
+                    <span class="d-none d-lg-block ">
+                        <a href="javascript:void(0) "
+                            class="text-decoration-underline text-blue font-lato fs-18 fw-bolder ">All news</a>
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row ">
+                        <div class="col-lg-6 mb-3 mb-lg-0 ">
+                            <div class="card border-0 rounded-0 shadow-sm " style="height: 100%; ">
+                                <img src="assets/images/news-1.png " class="card-img-top " alt="... ">
+
+                                <div class="card-body ">
+                                    <div class="font-lato fs-22 fw-800 text-uppercase text-blue ">Education System</div>
+                                    <div class="small text-muted mt-2">8 june 2021</div>
+                                    <p class="card-text mt-3">
+                                        This Black History Month, meet the students whose fearlessness has transformed Carolina for the better and the young Tar Heels who have continued to work toward a more inclusive and stronger future. This Black History Month, meet the students whose fearlessness
+                                        has transformed Carolina for the better.
+                                    </p>
+                                    <div class="text-end ">
+                                        <a href="# " class="card-link text-muted ">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ">
+                            <div class="row d-flex align-items-center ">
+
+                                <div class="col-12 ">
+                                    <div class="card border-0 rounded-0 shadow-sm mb-3 ">
+                                        <div class="row g-0 ">
+                                            <div class="col-4 p-2 ">
+                                                <div class="ratio ratio-1x1 ">
+                                                    <img src="assets/images/news/icon1.png " alt="... " class="img-fluid ">
+                                                </div>
+                                            </div>
+                                            <div class="col-8 ">
+                                                <div class="card-body pb-0">
+                                                    <div class="font-lato fs-22 fw-800 text-uppercase text-blue ">
+                                                        Education System
+                                                    </div>
+                                                    <div class="font-lato fs-14 fw-400 text-muted ">8 june 2021</div>
+                                                    <p class="card-text my-0">
+                                                        This Black History Month, meet the students whose fearlessness has transformed Carolina for the better and the young Tar Heels who have continued to work toward a more inclusive and stronger future.
+                                                    </p>
+                                                    <div class="text-end ">
+                                                        <a href="# " class="card-link font-lato fs-14 fw-400 text-muted ">Learn
+                                                            more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="card border-0 rounded-0 shadow-sm mb-3 ">
+                                        <div class="row g-0 ">
+                                            <div class="col-4 p-2">
+                                                <div class="ratio ratio-1x1 ">
+                                                    <img src="assets/images/news/icon2.png " alt="... " class="img-fluid ">
+                                                </div>
+                                            </div>
+                                            <div class="col-8 ">
+                                                <div class="card-body pb-0">
+                                                    <div class="font-lato fs-22 fw-800 text-uppercase text-blue ">
+                                                        Education System
+                                                    </div>
+                                                    <div class="font-lato fs-14 fw-400 text-muted ">8 june 2021</div>
+                                                    <p class="card-text my-0">
+                                                        This Black History Month, meet the students whose fearlessness has transformed Carolina for the better and the young Tar Heels who have continued to work toward a more inclusive and stronger future.
+                                                    </p>
+                                                    <div class="text-end ">
+                                                        <a href="# " class="card-link card-link font-lato fs-14 fw-400 text-muted ">Learn
+                                                            more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 ">
+                                    <div class="card border-0 rounded-0 shadow-sm ">
+                                        <div class="row g-0 ">
+                                            <div class="col-4 p-2 ">
+                                                <div class="ratio ratio-1x1 ">
+                                                    <img src="assets/images/news/icon3.png " alt="... " class="img-fluid ">
+                                                </div>
+                                            </div>
+                                            <div class="col-8 ">
+                                                <div class="card-body pb-0">
+                                                    <div class="font-lato fs-22 fw-800 text-uppercase text-blue ">
+                                                        Education System
+                                                    </div>
+                                                    <div class="font-lato fs-14 fw-400 text-muted ">8 june 2021</div>
+                                                    <p class="card-text my-0">
+                                                        This Black History Month, meet the students whose fearlessness has transformed Carolina for the better and the young Tar Heels who have continued to work toward a more inclusive and stronger future.
+                                                    </p>
+                                                    <div class="text-end ">
+                                                        <a href="# " class="card-link font-lato fs-14 fw-400 text-muted ">Learn
+                                                            more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- News section End -->
+
+
+    <!-- Admission process section Start -->
+    <section id="admission-process" class="py-4 ">
+        <div class="container admission-section">
+
+            <div class="row ">
+
+                <div class="col-12 ">
+                    <div class="font-lato fs-52 fw-700 text-blue text-uppercase">Admission process</div>
+                </div>
+
+                <div class="col-12 mt-3 px-0">
+                    <section class="section-fivesteps section-fivesteps_start ">
+                        <div class="container px-0 ms-lg-0">
+                            <!-- <h2 class="section-fivesteps__title ">
+                                <a target="_blank " href="/en/actual/articles/the-procedure-for-entering-russia-during-the-quarantine-restrictions/ ">
+                                    The procedure for entering Russia<br> during the quarantine restrictions            </a>
+                            </h2> -->
+                            <div class="section-fivesteps__list ">
+                                <div class="section-fivesteps__item ">
+                                    <a href="#" class="section-fivesteps__item-content">
+                                        <div class="section-fivesteps__image d-lg-block d-none">
+                                            <img src="assets/images/admission/icon_1.svg " height="155 " alt="Study in Russia ">
+                                        </div>
+                                        <div class="section-fivesteps__text main-color d-none d-lg-block">
+                                            <span>CHOOSE<br>COURSE</span>
+                                        </div>
+                                        <div class="section-fivesteps__name ">
+                                            <div class="section-fivesteps__number ">
+                                                1
+                                            </div>
+                                        </div>
+
+                                        <div class="section-fivesteps__text main-color mobile-bg-choose d-block d-lg-none me-5">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="section-fivesteps__item ">
+                                    <a href="#" class="section-fivesteps__item-content">
+                                        <div class="section-fivesteps__image d-lg-block d-none">
+                                            <img src="assets/images/admission/icon_2.svg " alt="Study in Russia ">
+                                        </div>
+                                        <div class="section-fivesteps__text main-color d-none d-lg-block">
+                                            <span>APPLY<br>ONLINE</span>
+                                        </div>
+                                        <div class="section-fivesteps__name ">
+                                            <div class="section-fivesteps__number ">
+                                                2
+                                            </div>
+                                        </div>
+
+                                        <div class="section-fivesteps__text main-color mobile-bg-apply d-block d-lg-none me-5">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="section-fivesteps__item ">
+                                    <a href="#" class="section-fivesteps__item-content">
+                                        <div class="section-fivesteps__image d-lg-block d-none">
+                                            <img src="assets/images/admission/icon_3.svg " alt="Study in Russia ">
+                                        </div>
+                                        <div class="section-fivesteps__text main-color d-none d-lg-block">
+                                            <span>GET AN INVITATION<br>LETTER</span>
+                                        </div>
+                                        <div class="section-fivesteps__name ">
+                                            <div class="section-fivesteps__number ">
+                                                3
+                                            </div>
+                                        </div>
+
+                                        <div class="section-fivesteps__text main-color mobile-bg-get d-block d-lg-none me-5">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="section-fivesteps__item ">
+                                    <a href="#" class="section-fivesteps__item-content">
+                                        <div class="section-fivesteps__image d-lg-block d-none">
+                                            <img src="assets/images/admission/icon_4.svg " height="155 " alt="Study in Russia ">
+                                        </div>
+                                        <div class="section-fivesteps__text main-color d-none d-lg-block">
+                                            <span>GET</br>VISA</span>
+                                        </div>
+                                        <div class="section-fivesteps__name ">
+                                            <div class="section-fivesteps__number ">
+                                                4
+                                            </div>
+                                        </div>
+
+                                        <div class="section-fivesteps__text main-color mobile-bg-visa d-block d-lg-none me-5">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Admission process section End -->
+
+
+    <!-- Admissions section Start -->
+    <section class="py-5 bg-blue text-white ">
+        <div class="container news-section">
+
+            <div class="row">
+
+                <div class="col-lg-6 text-center text-lg-start ">
+                    <div class="font-lato display-1 text-uppercase fw-bolder text-white ">Admissions</div>
+                    <div class="h1 text-uppercase my-4 "><span class="mr-0 me-lg-4 ">2020-2021</span> <span class="bg-brown px-4 py-1 ">open now</span></div>
+                    <div class="font-lato fs-22 ">Make online application and study in ukraine</div>
+                </div>
+
+                <div class="header-form-admission col-lg-6 text-center text-uppercase text-white px-2 d-lg-block d-none">
+
+                    <div class="  py-custom-20 bg-blue px-5">
+                        <div class="border-white-custom  pb-2 pt-4">
+                            <div class="font-lato fs-29 fw-800" style="margin-top: -48px;"><span class="bg-blue px-3">Complete the form</span></div>
+                            <div class="px-5 mb-3 mt-2">
+                                <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Name...">
+                            </div>
+                            <div class="px-5 mb-3">
+                                <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Phone...">
+                            </div>
+                            <div class="px-5">
+                                <input type="text" class="form-control rounded-0 h-25 border-brown" placeholder="Email...">
+                            </div>
+                            <a href="" class="btn form-button bg-brown text-white fw-700 py-1 fs-18 h-26 rounded-pill px-3 w-60" style="margin-bottom: -35px;">SEND APPLICATION</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Admissions section End -->
+
+
+    <!-- Our faculties section Start -->
+    <section id="50-courses" class="mt-4 mx-3 ">
+        <div class="container  news-section">
+
+            <div class="row ">
+
+                <div class="col-12 ">
+                    <div class="font-lato fs-52 fw-700 text-blue text-uppercase ">Our faculties</div>
+                </div>
+
+            </div>
+
+            <div class="row text-centertext-blue text-uppercase mt-4 d-flex justify-content-center ">
+
+                <div class="col-6 col-lg-3 mb-0 mb-lg-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 mb-lg-0 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-5 mb-lg-0 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3 text-center item-faculties ">
+                    <div class="card border-0 rounded-0 shadow-sm py-3 item-faculties-card ">
+                        <div class="card-body ">
+                            <img src="assets/images/pharmacy.svg " alt="image " height="70 " style="position: absolute; top: -15px; left: -10px; ">
+                            <div class="font-lato fs-16 fw-800 text-blue pt-lg-3 pt-1">THE INSTITUTE OF POSTGRADUATE EDUCATION AND CERTIFICATION
+                            </div>
+                            <a href="# " class="text-brown font-lato fs-12 fw-800 mt-2 ">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Our faculties section End -->
+
+
+    <!-- Gallery university section Start -->
+    <section class="mt-4 ">
+
+        <div class="container-fluid ">
+            <!-- <ul class="nav nav-pills mb-3 " id="photo-tab " role="tablist ">
+                <li class="nav-item " role="presentation ">
+                    <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase active " id="photo-home-tab " data-bs-toggle="pill " data-bs-target="#photo-home " type="button " role="tab
+                        " aria-controls="photo-home " aria-selected="true ">University</button>
+                </li>
+                <li class="nav-item " role="presentation ">
+                    <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase " id="photo-profile-tab " data-bs-toggle="pill " data-bs-target="#video-profile " type="button " role="tab
+                        " aria-controls="photo-profile " aria-selected="false ">Education</button>
+                </li>
+                <li class="nav-item " role="presentation ">
+                    <button class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-1 px-lg-3 me-1 me-lg-3 text-uppercase " id="photo-contact-tab " data-bs-toggle="pill " data-bs-target="#gallery-contact " type="button " role="tab
+                        " aria-controls="photo-contact " aria-selected="false ">Study</button>
+                </li>
+
+            </ul>
+            <div class="tab-content " id="photo-tabContent ">
+                <div class="tab-pane fade show active " id="photo-home " role="tabpanel " aria-labelledby="photo-home-tab ">...</div>
+                <div class="tab-pane fade " id="video-profile " role="tabpanel " aria-labelledby="photo-profile-tab ">...</div>
+                <div class="tab-pane fade " id="gallery-contact " role="tabpanel " aria-labelledby="photo-contact-tab ">...</div>
+            </div> -->
+            <div class="row ">
+
+                <div class="col-12 news-section">
+                    <div class="font-lato fs-52 fw-700 text-blue text-uppercase ">Gallery university</div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-lg-between mb-4 mt-3 news-section">
+                    <span class="text-uppercase ms-0 ms-lg-4 ">
+                        <a href="javascript:void(0) "
+                            class="btn bg-blue text-white fs-18 fw-700 rounded-0 shadow-sm px-3 me-3 ">Photos
+                            Gallery</a>
+                        <a href="javascript:void(0) "
+                            class="btn bg-white text-blue fs-18 fw-700 rounded-0 shadow-sm px-3 me-3 ">Videos
+                            Gallery</a>
+
+                    </span>
+
+                    <span class="ps-lg-0 pt-lg-0 ps-2 pt-2">
+                        <a href="javascript:void(0) "
+                            class="text-decoration-underline text-blue font-lato fs-18 fw-bolder ">All gallery</a>
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="slider-video">
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_1.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_3.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="assets/images/gallery university/slide_2.png" alt="" />
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="container mt-4">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-auto bg-blue text-white py-2 px-3 shadow-sm" style="border-top-left-radius: 50%;border-bottom-left-radius: 50%;">
+                    <i class="fas fa-chevron-left fa-2x carousel-prev"></i>
+                </div>
+                <div class="col-8 col-lg-6 slick-gallery-dots mx-0 px-0 ">
+                </div>
+
+                <div class="col-auto bg-blue text-white py-2 px-3 shadow-sm " style="border-top-right-radius: 50%;border-bottom-right-radius: 50%; ">
+                    <i class="fas fa-chevron-right fa-2x carousel-next "></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Gallery university section End -->
+
+
+    <!-- Eramsus university section Start -->
+    <section class="my-5 ">
+        <div class="bg-white py-lg-3 py-2 ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-1 prev-ers">
+                        <img src="assets/images/erasmus/Batton_l.svg" alt="">
+                    </div>
+                    <div class="col-10 responsive">
+                        <div class="col-3">
+                            <img src="assets/images/erasmus.png " alt="erasmus " width="100% ">
+                        </div>
+                        <div class="col-3 ">
+                            <img src="assets/images/erasmus.png " alt="erasmus " width="100% ">
+                        </div>
+                        <div class="col-3 ">
+                            <img src="assets/images/erasmus.png " alt="erasmus " width="100% ">
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/images/erasmus.png " alt="erasmus " width="100% ">
+                        </div>
+                        <div class="col-3">
+                            <img src="assets/images/erasmus.png " alt="erasmus " width="100% ">
+                        </div>
+                    </div>
+                    <div class="col-1 next-ers">
+                        <img src="assets/images/erasmus/batton_r.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Eramsus university section End -->
+
+
+    <!-- Footer section Start -->
+    <footer class="bg-blue text-white">
+        <div class="container news-section">
+            <div class="row py-5 ">
+
+                <div class="col-lg-7 ">
+
+                    <div class="row text-uppercase font-lato fs-18 ">
+
+                        <div class="col-12 mb-5 ">
+                            <img src="assets/images/logo-white.png " alt="logo " style="max-width: 100%; " />
+                        </div>
+
+                        <div class="col-12 d-block d-lg-none ">
+                            <hr class="border border-light mb-5 ">
+                        </div>
+
+                        <div class="col-6 ">
+                            <div class="row d-flex align-items-center ">
+                                <div class="col-auto pe-0 ">
+                                    <img src="assets/images/phone-white.svg " alt="photo ">
+                                </div>
+                                <div class="col-auto ">
+                                    <div class="fw-300 ">Give us a call</div>
+                                    <div class="fw-700 ">+38 (066) 681 24-49</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 ">
+                            <div class="row d-flex align-items-center ">
+                                <div class="col-auto pe-0 ">
+                                    <img src="assets/images/email-white.svg " alt="photo ">
+                                </div>
+                                <div class="col-auto ">
+                                    <div class="fw-300 ">Send Us A Message</div>
+                                    <div class="fw-700 ">SNPU.COM@GMAIL.COM</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 d-block d-lg-none ">
+                    <hr class="border border-light my-5 ">
+                </div>
+
+                <div class="col-lg-5 ">
+                    <div class="row ">
+                        <div class="col-12 ">
+                            <div class="input-group mb-3 ">
+                                <input type="text " class="form-control rounded-0 border-brown " placeholder="Text... ">
+                                <button class="btn bg-brown text-white rounded-pill" type="button " style="margin-left: -20px; ">SEARCH</button>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-5 ">
+                            <div class="font-lato fs-18 fw-700 text-decoration-underline ">Products</div>
+                            <div class="font-lato fs-14 fw-600 ">Send</div>
+                            <div class="font-lato fs-14 fw-600 ">Recieve</div>
+                            <div class="font-lato fs-14 fw-600 ">Buy</div>
+                            <div class="font-lato fs-14 fw-600 ">Recieve</div>
+                            <div class="font-lato fs-14 fw-600 ">Recieve</div>
+                        </div>
+                        <div class="col-4 mt-5 ">
+                            <div class="font-lato fs-18 fw-700 text-decoration-underline ">Products</div>
+                            <div class="font-lato fs-14 fw-600 ">Send</div>
+                            <div class="font-lato fs-14 fw-600 ">Recieve</div>
+                            <div class="font-lato fs-14 fw-600 ">Buy</div>
+                            <div class="font-lato fs-14 fw-600 ">Buy</div>
+                        </div>
+                        <div class="col-4 mt-5 ">
+                            <div class="font-lato fs-18 fw-700 text-decoration-underline ">Products</div>
+                            <div class="font-lato fs-14 fw-600 ">Send</div>
+                            <div class="font-lato fs-14 fw-600 ">Recieve</div>
+                            <div class="font-lato fs-14 fw-600 ">Buy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-deep-blue ">
+            <div class="row text-center ">
+                <div class="my-2 ">Copyright © 2020. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section End -->
+    <script src="assets/js/vandors/jquery-3.0.min.js "></script>
+    <!-- Slick -->
+    <script src="assets/js/vandors/slick.min.js "></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js " integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 " crossorigin="anonymous "></script>
+    <!--Device js-->
+    <script src="https://unpkg.com/current-device/umd/current-device.min.js "></script>
+    <script type="text/javascript " src="assets/js/main.js "></script>
+
+</body>
+
+</html>
